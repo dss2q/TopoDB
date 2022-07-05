@@ -32,7 +32,7 @@ gem 'pg'
 gem 'chart-js-rails'
 gem 'd3-rails'
 gem 'poppler'
-gem "activesupport", ">= 5.2.4.3"
+gem 'activesupport', '>= 5.2.4.3'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -59,7 +59,7 @@ group :development, :test do
 end
 
 group :development do
-  gem "capistrano"
+  gem 'capistrano'
   gem 'capistrano-rvm'
   gem 'capistrano-rails'
   gem 'capistrano-passenger'
