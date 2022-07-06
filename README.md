@@ -5,13 +5,13 @@ TopoDB requires Ruby version >= 2.5.2, Ruby on Rails version >= 5.2.0, and bundl
 TopoDB is configured to use MySQL as the database component. Download and install MySQL prior to installing TopoDB on your system [here](https://dev.mysql.com/downloads/). 
 
 Open the mysql shell and create a user and password for TopoDB to use to connect:  
-```mysql> CREATE USER 'topo'@'localhost' IDENTIFIED BY 'password';```
+```mysql> CREATE USER 'developer'@'localhost' IDENTIFIED BY 'password';```
 
 Create a database named topo_dev:  
-```mysql> CREATE DATABASE 'topo_database';```  
+```mysql> CREATE DATABASE topo_dev;```  
 
 Give the TopoDB user account all permissions on that database:  
-```mysql> GRANT ALL PRIVILEGES ON topo_database.* TO 'topo'@'localhost';```
+```mysql> GRANT ALL PRIVILEGES ON topo_dev.* TO 'developer'@'localhost';```
 
 Close the mysql shell
 
